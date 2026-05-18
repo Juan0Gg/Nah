@@ -371,3 +371,29 @@ diccionario = {clave: valor for item in iterable if condición}
 ---
 
 ## Expresiones Regulares
+
+| Símbolo   | Definición                                                                            |
+| --------- | ------------------------------------------------------------------------------------- |
+| `\`       | Carácter de escape para indicar formas especiales o anular significados reservados.   |
+| `.`       | Coincide con cualquier carácter excepto el salto de línea.                            |
+| `^`       | Indica el inicio de una línea en el texto.                                            |
+| `$`       | Busca el final absoluto del texto, con cortesía ante saltos de línea finales.         |
+| `*`       | Cuantificador que permite de cero a infinitas repeticiones del elemento anterior.     |
+| `+`       | Cuantificador que exige una o más repeticiones del elemento anterior.                 |
+| `?`       | Indica opcionalidad (cero o una ocurrencia del elemento anterior).                    |
+| `{m}`     | Indica que el elemento anterior debe repetirse exactamente "m" veces.                 |
+| `{m,n}`   | Indica un rango de repeticiones, desde un mínimo de "m" hasta un máximo de "n".       |
+| `[]`      | Define un conjunto o set de caracteres para buscar coincidencias.                     |
+| `\|`      | Operador de alternancia que permite elegir entre dos valores.                         |
+| `(...)`   | Agrupa caracteres y guarda el resultado de la agrupación.                             |
+| `(?:...)` | Agrupa caracteres pero no guarda el resultado (no captura).                           |
+| `\A`      | Coincide exclusivamente con la posición inicial (índice 0) de la cadena.              |
+| `\b`      | Define el límite o frontera donde comienza o termina una palabra.                     |
+| `\B`      | Coincide con posiciones donde NO hay un límite de palabra.                            |
+| `\d`      | Representa cualquier dígito decimal.                                                  |
+| `\D`      | Representa cualquier carácter que no sea un dígito decimal.                           |
+| `\s`      | Indica un carácter de espacio en blanco.                                              |
+| `\S`      | Coincide con cualquier carácter que no sea un espacio en blanco.                      |
+| `\w`      | Identifica caracteres de palabra (letras, números, guiones bajos, letras acentuadas). |
+| `\W`      | Coincide con cualquier carácter que no sea un carácter de palabra.                    |
+| `\z`      | Coincide con el final absoluto de la cadena de caracteres.                            |
